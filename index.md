@@ -11,7 +11,7 @@ thanks to [GitHub Marp CLI Action](https://github.com/marketplace/actions/marp-c
 ### with the MARP-formatted Markdown files
 
 ***
-## 2. Add Github Action
+## 2. Add the Github Action
 - `Actions` → `set up a workflow yourself`
 - add the following code:
     ```
@@ -34,6 +34,16 @@ thanks to [GitHub Marp CLI Action](https://github.com/marketplace/actions/marp-c
     ```
 
 ***
-## 3. Activate Github Pages
-1. Repo-`Settings` → `Pages` → `Deploy from Branch`
-2. Select `gh-pages`
+## 3. Grant writing permissions
+- Repo-`Settings` → `Actions` → `General` → `Workflow permissions`
+- enable `Read and write permissions`
+
+***
+## First Test
+- push an update to the repository and 
+- see if the action creates a new `gh-pages` branch
+
+***
+## 4. Activate Github Pages
+- Repo-`Settings` → `Pages` → `Deploy from Branch`
+- Select `gh-pages`
