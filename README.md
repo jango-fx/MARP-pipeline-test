@@ -8,7 +8,7 @@ thanks to [GitHub Marp CLI Action](https://github.com/marketplace/actions/marp-c
 
 ***
 ## 1. Create a Repo
-### with the MARP-formatted Markdown files
+### with MARP-formatted Markdown files
 
 ***
 ## 2. Add the Github Action
@@ -47,3 +47,6 @@ thanks to [GitHub Marp CLI Action](https://github.com/marketplace/actions/marp-c
 ## 4. Activate Github Pages
 - Repo-`Settings` → `Pages` → `Deploy from Branch`
 - Select `gh-pages`
+
+## Test your slideshow
+under https://USERNAME.github.io/REPO
